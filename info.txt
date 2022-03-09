@@ -1,0 +1,23 @@
+
+
+1.Для подключения Бутстрапа заходим во вкладку Documentation на странице GetBootstrap.com и там копируем стартовый код-заготовка 'Starter template' и в чистом проекте ее всиавляем.
+2. Можно также подключить локально скачав файлы  во вкладке  Dowland - Compiled CSS and JS ( у меня есть скаченные 01.12.2021)
+3. В большинстве случаев из архива нам нужны только эти 2 файла: «bootstrap.min.css» и «bootstrap.bundle.min.js»
+4. Копируем файл «bootstrap.min.css» в папку css
+5. Копируем файл «bootstrap.bundle.min.js» в папку js
+6. Подключаю к документу  HTML  <link rel="stylesheet" href="css/bootstrap.min.css"> 
+7. Подключаю к документу  HTML  <script defer src="js/bootstrap.bundle.min.js"></script> 
+
+Подключение с cdn- сервера
+
+Подключаю  готовые стили и иконки со стороннего cdn сервера (Сеть доставки контента (Content Delivery Network), или CDN)
+https://cdnjs.com/
+- в поиске ищу bootstrap  копирую и вставляю в index.html  линк-тег подключения
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css">
+ненужные атрибута можно удалить, было так:
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.1/js/bootstrap.min.js" 
+integrity="sha512-ewfXo9Gq53e1q1+WDTjaHAGZ8UvCWq0eXONhwDuIoaH8xz2r96uoAYaQCm1oQhnBfRXrvJztNXFsTloJfgbL5Q==" 
+crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+- так же подключю иконки font-awesome
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
